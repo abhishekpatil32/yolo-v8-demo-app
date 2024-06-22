@@ -10,22 +10,11 @@ The main steps for the project include:
 
 # Installation Steps:
 
-1. Clone the repository:
-
-git clone https://github.com/yourusername/yolo-v8-demo-app.git
-cd yolo-v8-demo-app
-
-2. Create a virtual environment and activate it:
-
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
- 
-
-3. Install the required packages:
+1. Install the required packages:
 
 pip install -r requirements.txt
 
-4. Download the YOLO v8 weights and place them in the `weights` directory:
+2. Download the YOLO v8 weights and place them in the `weights` directory:
 
 mkdir weights
 # Download the yolov8n.pt file and place it in the weights directory
